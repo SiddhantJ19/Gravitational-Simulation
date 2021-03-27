@@ -1,0 +1,1 @@
+/usr/bin/c++   -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-ignored-attributes -fopenmp -g CMakeFiles/nbsimMyFirstApp.dir/nbsimMyFirstApp.cpp.o -o ../../bin/nbsimMyFirstApp  ../../bin/libphas0100assignment2.a 

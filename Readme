@@ -1,0 +1,10 @@
+Install gcc/g++, Cmake
+From Build folder run
+
+    cmake .. -DCMAKE_BUILD_TYPE=Debug -G "Unix Makefiles"
+    
+To Compile the project every time, run from Build folder
+    make all
+
+export test=./bin/
+export run=./bin/
