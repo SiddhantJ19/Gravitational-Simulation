@@ -233,6 +233,30 @@ nbsimException.cpp.s:
 	cd /home/siddhant/Code/Projects/Freelance/cpp-gravitational-sim/PHAS0100Assignment2/Build && $(MAKE) $(MAKESILENT) -f Code/Lib/CMakeFiles/phas0100assignment2.dir/build.make Code/Lib/CMakeFiles/phas0100assignment2.dir/nbsimException.cpp.s
 .PHONY : nbsimException.cpp.s
 
+nbsimMassiveParticle.o: nbsimMassiveParticle.cpp.o
+.PHONY : nbsimMassiveParticle.o
+
+# target to build an object file
+nbsimMassiveParticle.cpp.o:
+	cd /home/siddhant/Code/Projects/Freelance/cpp-gravitational-sim/PHAS0100Assignment2/Build && $(MAKE) $(MAKESILENT) -f Code/Lib/CMakeFiles/phas0100assignment2.dir/build.make Code/Lib/CMakeFiles/phas0100assignment2.dir/nbsimMassiveParticle.cpp.o
+.PHONY : nbsimMassiveParticle.cpp.o
+
+nbsimMassiveParticle.i: nbsimMassiveParticle.cpp.i
+.PHONY : nbsimMassiveParticle.i
+
+# target to preprocess a source file
+nbsimMassiveParticle.cpp.i:
+	cd /home/siddhant/Code/Projects/Freelance/cpp-gravitational-sim/PHAS0100Assignment2/Build && $(MAKE) $(MAKESILENT) -f Code/Lib/CMakeFiles/phas0100assignment2.dir/build.make Code/Lib/CMakeFiles/phas0100assignment2.dir/nbsimMassiveParticle.cpp.i
+.PHONY : nbsimMassiveParticle.cpp.i
+
+nbsimMassiveParticle.s: nbsimMassiveParticle.cpp.s
+.PHONY : nbsimMassiveParticle.s
+
+# target to generate assembly for a file
+nbsimMassiveParticle.cpp.s:
+	cd /home/siddhant/Code/Projects/Freelance/cpp-gravitational-sim/PHAS0100Assignment2/Build && $(MAKE) $(MAKESILENT) -f Code/Lib/CMakeFiles/phas0100assignment2.dir/build.make Code/Lib/CMakeFiles/phas0100assignment2.dir/nbsimMassiveParticle.cpp.s
+.PHONY : nbsimMassiveParticle.cpp.s
+
 nbsimMyFunctions.o: nbsimMyFunctions.cpp.o
 .PHONY : nbsimMyFunctions.o
 
@@ -301,6 +325,9 @@ help:
 	@echo "... nbsimException.o"
 	@echo "... nbsimException.i"
 	@echo "... nbsimException.s"
+	@echo "... nbsimMassiveParticle.o"
+	@echo "... nbsimMassiveParticle.i"
+	@echo "... nbsimMassiveParticle.s"
 	@echo "... nbsimMyFunctions.o"
 	@echo "... nbsimMyFunctions.i"
 	@echo "... nbsimMyFunctions.s"

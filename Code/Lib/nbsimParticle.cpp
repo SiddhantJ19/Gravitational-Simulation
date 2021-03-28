@@ -16,7 +16,7 @@ Eigen::Vector3d nbsim::Particle::getVelocity() const
     return this->velocity;
 }   
 
-void nbsim::Particle::integrateTimeStamp(const Eigen::Vector3d acceleration, const double timestep)
+void nbsim::Particle::integrateTimestep(const Eigen::Vector3d acceleration, const double timestep)
 {
     this->velocity = this->velocity + acceleration * timestep;
     this->position = this->position + this->velocity * timestep;

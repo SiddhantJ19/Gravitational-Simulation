@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/phas0100assignment2.dir/nbsimBasicTypes.cpp.o.d"
   "CMakeFiles/phas0100assignment2.dir/nbsimException.cpp.o"
   "CMakeFiles/phas0100assignment2.dir/nbsimException.cpp.o.d"
+  "CMakeFiles/phas0100assignment2.dir/nbsimMassiveParticle.cpp.o"
+  "CMakeFiles/phas0100assignment2.dir/nbsimMassiveParticle.cpp.o.d"
   "CMakeFiles/phas0100assignment2.dir/nbsimMyFunctions.cpp.o"
   "CMakeFiles/phas0100assignment2.dir/nbsimMyFunctions.cpp.o.d"
   "CMakeFiles/phas0100assignment2.dir/nbsimParticle.cpp.o"

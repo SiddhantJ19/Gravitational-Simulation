@@ -125,12 +125,27 @@ Code/Lib/CMakeFiles/phas0100assignment2.dir/nbsimParticle.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/phas0100assignment2.dir/nbsimParticle.cpp.s"
 	cd /home/siddhant/Code/Projects/Freelance/cpp-gravitational-sim/PHAS0100Assignment2/Build/Code/Lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/siddhant/Code/Projects/Freelance/cpp-gravitational-sim/PHAS0100Assignment2/Code/Lib/nbsimParticle.cpp -o CMakeFiles/phas0100assignment2.dir/nbsimParticle.cpp.s
 
+Code/Lib/CMakeFiles/phas0100assignment2.dir/nbsimMassiveParticle.cpp.o: Code/Lib/CMakeFiles/phas0100assignment2.dir/flags.make
+Code/Lib/CMakeFiles/phas0100assignment2.dir/nbsimMassiveParticle.cpp.o: ../Code/Lib/nbsimMassiveParticle.cpp
+Code/Lib/CMakeFiles/phas0100assignment2.dir/nbsimMassiveParticle.cpp.o: Code/Lib/CMakeFiles/phas0100assignment2.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/siddhant/Code/Projects/Freelance/cpp-gravitational-sim/PHAS0100Assignment2/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object Code/Lib/CMakeFiles/phas0100assignment2.dir/nbsimMassiveParticle.cpp.o"
+	cd /home/siddhant/Code/Projects/Freelance/cpp-gravitational-sim/PHAS0100Assignment2/Build/Code/Lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Code/Lib/CMakeFiles/phas0100assignment2.dir/nbsimMassiveParticle.cpp.o -MF CMakeFiles/phas0100assignment2.dir/nbsimMassiveParticle.cpp.o.d -o CMakeFiles/phas0100assignment2.dir/nbsimMassiveParticle.cpp.o -c /home/siddhant/Code/Projects/Freelance/cpp-gravitational-sim/PHAS0100Assignment2/Code/Lib/nbsimMassiveParticle.cpp
+
+Code/Lib/CMakeFiles/phas0100assignment2.dir/nbsimMassiveParticle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/phas0100assignment2.dir/nbsimMassiveParticle.cpp.i"
+	cd /home/siddhant/Code/Projects/Freelance/cpp-gravitational-sim/PHAS0100Assignment2/Build/Code/Lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/siddhant/Code/Projects/Freelance/cpp-gravitational-sim/PHAS0100Assignment2/Code/Lib/nbsimMassiveParticle.cpp > CMakeFiles/phas0100assignment2.dir/nbsimMassiveParticle.cpp.i
+
+Code/Lib/CMakeFiles/phas0100assignment2.dir/nbsimMassiveParticle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/phas0100assignment2.dir/nbsimMassiveParticle.cpp.s"
+	cd /home/siddhant/Code/Projects/Freelance/cpp-gravitational-sim/PHAS0100Assignment2/Build/Code/Lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/siddhant/Code/Projects/Freelance/cpp-gravitational-sim/PHAS0100Assignment2/Code/Lib/nbsimMassiveParticle.cpp -o CMakeFiles/phas0100assignment2.dir/nbsimMassiveParticle.cpp.s
+
 # Object files for target phas0100assignment2
 phas0100assignment2_OBJECTS = \
 "CMakeFiles/phas0100assignment2.dir/nbsimBasicTypes.cpp.o" \
 "CMakeFiles/phas0100assignment2.dir/nbsimMyFunctions.cpp.o" \
 "CMakeFiles/phas0100assignment2.dir/nbsimException.cpp.o" \
-"CMakeFiles/phas0100assignment2.dir/nbsimParticle.cpp.o"
+"CMakeFiles/phas0100assignment2.dir/nbsimParticle.cpp.o" \
+"CMakeFiles/phas0100assignment2.dir/nbsimMassiveParticle.cpp.o"
 
 # External object files for target phas0100assignment2
 phas0100assignment2_EXTERNAL_OBJECTS =
@@ -139,9 +154,10 @@ bin/libphas0100assignment2.a: Code/Lib/CMakeFiles/phas0100assignment2.dir/nbsimB
 bin/libphas0100assignment2.a: Code/Lib/CMakeFiles/phas0100assignment2.dir/nbsimMyFunctions.cpp.o
 bin/libphas0100assignment2.a: Code/Lib/CMakeFiles/phas0100assignment2.dir/nbsimException.cpp.o
 bin/libphas0100assignment2.a: Code/Lib/CMakeFiles/phas0100assignment2.dir/nbsimParticle.cpp.o
+bin/libphas0100assignment2.a: Code/Lib/CMakeFiles/phas0100assignment2.dir/nbsimMassiveParticle.cpp.o
 bin/libphas0100assignment2.a: Code/Lib/CMakeFiles/phas0100assignment2.dir/build.make
 bin/libphas0100assignment2.a: Code/Lib/CMakeFiles/phas0100assignment2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/siddhant/Code/Projects/Freelance/cpp-gravitational-sim/PHAS0100Assignment2/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library ../../bin/libphas0100assignment2.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/siddhant/Code/Projects/Freelance/cpp-gravitational-sim/PHAS0100Assignment2/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library ../../bin/libphas0100assignment2.a"
 	cd /home/siddhant/Code/Projects/Freelance/cpp-gravitational-sim/PHAS0100Assignment2/Build/Code/Lib && $(CMAKE_COMMAND) -P CMakeFiles/phas0100assignment2.dir/cmake_clean_target.cmake
 	cd /home/siddhant/Code/Projects/Freelance/cpp-gravitational-sim/PHAS0100Assignment2/Build/Code/Lib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/phas0100assignment2.dir/link.txt --verbose=$(VERBOSE)
 
