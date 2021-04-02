@@ -14,6 +14,7 @@
 
 set(_command_line_apps
   nbsimMyFirstApp
+  nbsimCLImain
 )
 
 foreach(_app ${_command_line_apps})

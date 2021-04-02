@@ -8,3 +8,5 @@ To Compile the project every time, run from Build folder
 
 export test=./bin/
 export run=./bin/
+
+./bin/nbsimCLImain --step 0.000274 --numsteps 3650

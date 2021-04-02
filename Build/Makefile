@@ -562,6 +562,19 @@ nbsimMyFirstApp/fast:
 .PHONY : nbsimMyFirstApp/fast
 
 #=============================================================================
+# Target rules for targets named nbsimCLImain
+
+# Build rule for target.
+nbsimCLImain: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 nbsimCLImain
+.PHONY : nbsimCLImain
+
+# fast build rule for target.
+nbsimCLImain/fast:
+	$(MAKE) $(MAKESILENT) -f Code/CommandLineApps/CMakeFiles/nbsimCLImain.dir/build.make Code/CommandLineApps/CMakeFiles/nbsimCLImain.dir/build
+.PHONY : nbsimCLImain/fast
+
+#=============================================================================
 # Target rules for targets named nbsimBasicTest
 
 # Build rule for target.
@@ -642,6 +655,7 @@ help:
 	@echo "... NightlyTest"
 	@echo "... NightlyUpdate"
 	@echo "... nbsimBasicTest"
+	@echo "... nbsimCLImain"
 	@echo "... nbsimCommandLineArgsTest"
 	@echo "... nbsimMyFirstApp"
 	@echo "... nbsimParticleTest"

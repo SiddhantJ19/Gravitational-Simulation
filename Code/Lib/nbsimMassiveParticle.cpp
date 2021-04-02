@@ -2,8 +2,8 @@
 #include <iostream>
 using namespace nbsim;
 
-MassiveParticle::MassiveParticle(const Eigen::Vector3d position, const Eigen::Vector3d velocity, double mu) 
-: Particle::Particle(position, velocity), mu(mu)
+MassiveParticle::MassiveParticle(const std::string name, const Eigen::Vector3d position, const Eigen::Vector3d velocity, double mu) 
+: Particle::Particle(name, position, velocity), mu(mu)
 {
     this->acceleration = Eigen::Vector3d(0,0,0); // assuming initial acc is zero
 }
@@ -15,8 +15,8 @@ double MassiveParticle::getMu()
 
 void MassiveParticle::addAttractor(std::shared_ptr<MassiveParticle> attractor) 
 {
-    if (!this->attractors.count(attractor->name))
-        this->attractors[attractor->name] = attractor;
+    if (!this->attractors.count(attractor->getName()))
+        this->attractors[attractor->getName()] = attractor;
 }
 
 

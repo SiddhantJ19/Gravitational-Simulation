@@ -1,9 +1,15 @@
 #include "nbsimParticle.h"
 
-nbsim::Particle::Particle(const Eigen::Vector3d position, const Eigen::Vector3d velocity) 
+nbsim::Particle::Particle(const std::string name, const Eigen::Vector3d position, const Eigen::Vector3d velocity) 
 {
     this->velocity = velocity;
     this->position = position;
+    this->name = name;
+}
+
+std::string nbsim::Particle::getName() const
+{
+    return this->name;
 }
 
 Eigen::Vector3d nbsim::Particle::getPosition() const 
