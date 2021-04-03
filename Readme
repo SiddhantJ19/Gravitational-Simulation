@@ -11,3 +11,5 @@ export run=./bin/
 
 ./bin/nbsimCLImain --step 0.000274 --numsteps 3650
 ./bin/nbsimParticleTest
+
+cmake .. -DCMAKE_BUILD_TYPE=Debug -G "Unix Makefiles" -DCMAKE_CXX_FLAGS_DEBUG="-DDEBUG_ON"

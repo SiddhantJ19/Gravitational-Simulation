@@ -895,3 +895,147 @@ make[1]: Leaving directory '/home/siddhant/Code/Projects/Freelance/cpp-gravitati
 
 Source file was:
 int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_FLAG_-std=c17 succeeded with the following output:
+Change Dir: /home/siddhant/Code/Projects/Freelance/cpp-gravitational-sim/PHAS0100Assignment2/Build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_4b822/fast && /usr/bin/make  -f CMakeFiles/cmTC_4b822.dir/build.make CMakeFiles/cmTC_4b822.dir/build
+make[1]: Entering directory '/home/siddhant/Code/Projects/Freelance/cpp-gravitational-sim/PHAS0100Assignment2/Build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4b822.dir/src.cxx.o
+/usr/bin/c++   -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations    -DHAS_FLAG_-std=c17 -std=c++17 -o CMakeFiles/cmTC_4b822.dir/src.cxx.o -c /home/siddhant/Code/Projects/Freelance/cpp-gravitational-sim/PHAS0100Assignment2/Build/CMakeFiles/CMakeTmp/src.cxx
+<command-line>: warning: ISO C++11 requires whitespace after the macro name
+Linking CXX executable cmTC_4b822
+/opt/cmake-3.20.0-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4b822.dir/link.txt --verbose=1
+/usr/bin/c++   -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  CMakeFiles/cmTC_4b822.dir/src.cxx.o -o cmTC_4b822 
+make[1]: Leaving directory '/home/siddhant/Code/Projects/Freelance/cpp-gravitational-sim/PHAS0100Assignment2/Build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_FLAG_-std=c17 succeeded with the following output:
+Change Dir: /home/siddhant/Code/Projects/Freelance/cpp-gravitational-sim/PHAS0100Assignment2/Build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_cf287/fast && /usr/bin/make  -f CMakeFiles/cmTC_cf287.dir/build.make CMakeFiles/cmTC_cf287.dir/build
+make[1]: Entering directory '/home/siddhant/Code/Projects/Freelance/cpp-gravitational-sim/PHAS0100Assignment2/Build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_cf287.dir/src.cxx.o
+/usr/bin/c++   -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations    -DHAS_FLAG_-std=c17 -std=c++17 -o CMakeFiles/cmTC_cf287.dir/src.cxx.o -c /home/siddhant/Code/Projects/Freelance/cpp-gravitational-sim/PHAS0100Assignment2/Build/CMakeFiles/CMakeTmp/src.cxx
+<command-line>: warning: ISO C++11 requires whitespace after the macro name
+Linking CXX executable cmTC_cf287
+/opt/cmake-3.20.0-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cf287.dir/link.txt --verbose=1
+/usr/bin/c++   -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  CMakeFiles/cmTC_cf287.dir/src.cxx.o -o cmTC_cf287 
+make[1]: Leaving directory '/home/siddhant/Code/Projects/Freelance/cpp-gravitational-sim/PHAS0100Assignment2/Build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_FLAG_-std=c17 succeeded with the following output:
+Change Dir: /home/siddhant/Code/Projects/Freelance/cpp-gravitational-sim/PHAS0100Assignment2/Build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_38b28/fast && /usr/bin/make  -f CMakeFiles/cmTC_38b28.dir/build.make CMakeFiles/cmTC_38b28.dir/build
+make[1]: Entering directory '/home/siddhant/Code/Projects/Freelance/cpp-gravitational-sim/PHAS0100Assignment2/Build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_38b28.dir/src.cxx.o
+/usr/bin/c++   -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations    -DHAS_FLAG_-std=c17 -std=c++17 -o CMakeFiles/cmTC_38b28.dir/src.cxx.o -c /home/siddhant/Code/Projects/Freelance/cpp-gravitational-sim/PHAS0100Assignment2/Build/CMakeFiles/CMakeTmp/src.cxx
+<command-line>: warning: ISO C++11 requires whitespace after the macro name
+Linking CXX executable cmTC_38b28
+/opt/cmake-3.20.0-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_38b28.dir/link.txt --verbose=1
+/usr/bin/c++   -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  CMakeFiles/cmTC_38b28.dir/src.cxx.o -o cmTC_38b28 
+make[1]: Leaving directory '/home/siddhant/Code/Projects/Freelance/cpp-gravitational-sim/PHAS0100Assignment2/Build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_FLAG_-std=c17 succeeded with the following output:
+Change Dir: /home/siddhant/Code/Projects/Freelance/cpp-gravitational-sim/PHAS0100Assignment2/Build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_72322/fast && /usr/bin/make  -f CMakeFiles/cmTC_72322.dir/build.make CMakeFiles/cmTC_72322.dir/build
+make[1]: Entering directory '/home/siddhant/Code/Projects/Freelance/cpp-gravitational-sim/PHAS0100Assignment2/Build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_72322.dir/src.cxx.o
+/usr/bin/c++   -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations    -DHAS_FLAG_-std=c17 -std=c++17 -o CMakeFiles/cmTC_72322.dir/src.cxx.o -c /home/siddhant/Code/Projects/Freelance/cpp-gravitational-sim/PHAS0100Assignment2/Build/CMakeFiles/CMakeTmp/src.cxx
+<command-line>: warning: ISO C++11 requires whitespace after the macro name
+Linking CXX executable cmTC_72322
+/opt/cmake-3.20.0-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_72322.dir/link.txt --verbose=1
+/usr/bin/c++   -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  CMakeFiles/cmTC_72322.dir/src.cxx.o -o cmTC_72322 
+make[1]: Leaving directory '/home/siddhant/Code/Projects/Freelance/cpp-gravitational-sim/PHAS0100Assignment2/Build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_FLAG_-std=c17 succeeded with the following output:
+Change Dir: /home/siddhant/Code/Projects/Freelance/cpp-gravitational-sim/PHAS0100Assignment2/Build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_19a82/fast && /usr/bin/make  -f CMakeFiles/cmTC_19a82.dir/build.make CMakeFiles/cmTC_19a82.dir/build
+make[1]: Entering directory '/home/siddhant/Code/Projects/Freelance/cpp-gravitational-sim/PHAS0100Assignment2/Build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_19a82.dir/src.cxx.o
+/usr/bin/c++   -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations    -DHAS_FLAG_-std=c17 -std=c++17 -o CMakeFiles/cmTC_19a82.dir/src.cxx.o -c /home/siddhant/Code/Projects/Freelance/cpp-gravitational-sim/PHAS0100Assignment2/Build/CMakeFiles/CMakeTmp/src.cxx
+<command-line>: warning: ISO C++11 requires whitespace after the macro name
+Linking CXX executable cmTC_19a82
+/opt/cmake-3.20.0-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_19a82.dir/link.txt --verbose=1
+/usr/bin/c++   -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  CMakeFiles/cmTC_19a82.dir/src.cxx.o -o cmTC_19a82 
+make[1]: Leaving directory '/home/siddhant/Code/Projects/Freelance/cpp-gravitational-sim/PHAS0100Assignment2/Build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_FLAG_-std=c17 succeeded with the following output:
+Change Dir: /home/siddhant/Code/Projects/Freelance/cpp-gravitational-sim/PHAS0100Assignment2/Build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_898c4/fast && /usr/bin/make  -f CMakeFiles/cmTC_898c4.dir/build.make CMakeFiles/cmTC_898c4.dir/build
+make[1]: Entering directory '/home/siddhant/Code/Projects/Freelance/cpp-gravitational-sim/PHAS0100Assignment2/Build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_898c4.dir/src.cxx.o
+/usr/bin/c++   -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations    -DHAS_FLAG_-std=c17 -std=c++17 -o CMakeFiles/cmTC_898c4.dir/src.cxx.o -c /home/siddhant/Code/Projects/Freelance/cpp-gravitational-sim/PHAS0100Assignment2/Build/CMakeFiles/CMakeTmp/src.cxx
+<command-line>: warning: ISO C++11 requires whitespace after the macro name
+Linking CXX executable cmTC_898c4
+/opt/cmake-3.20.0-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_898c4.dir/link.txt --verbose=1
+/usr/bin/c++   -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  CMakeFiles/cmTC_898c4.dir/src.cxx.o -o cmTC_898c4 
+make[1]: Leaving directory '/home/siddhant/Code/Projects/Freelance/cpp-gravitational-sim/PHAS0100Assignment2/Build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_FLAG_-std=c17 succeeded with the following output:
+Change Dir: /home/siddhant/Code/Projects/Freelance/cpp-gravitational-sim/PHAS0100Assignment2/Build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_e1911/fast && /usr/bin/make  -f CMakeFiles/cmTC_e1911.dir/build.make CMakeFiles/cmTC_e1911.dir/build
+make[1]: Entering directory '/home/siddhant/Code/Projects/Freelance/cpp-gravitational-sim/PHAS0100Assignment2/Build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e1911.dir/src.cxx.o
+/usr/bin/c++   -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations    -DHAS_FLAG_-std=c17 -std=c++17 -o CMakeFiles/cmTC_e1911.dir/src.cxx.o -c /home/siddhant/Code/Projects/Freelance/cpp-gravitational-sim/PHAS0100Assignment2/Build/CMakeFiles/CMakeTmp/src.cxx
+<command-line>: warning: ISO C++11 requires whitespace after the macro name
+Linking CXX executable cmTC_e1911
+/opt/cmake-3.20.0-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e1911.dir/link.txt --verbose=1
+/usr/bin/c++   -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  CMakeFiles/cmTC_e1911.dir/src.cxx.o -o cmTC_e1911 
+make[1]: Leaving directory '/home/siddhant/Code/Projects/Freelance/cpp-gravitational-sim/PHAS0100Assignment2/Build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_FLAG_-std=c17 succeeded with the following output:
+Change Dir: /home/siddhant/Code/Projects/Freelance/cpp-gravitational-sim/PHAS0100Assignment2/Build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_1a8f8/fast && /usr/bin/make  -f CMakeFiles/cmTC_1a8f8.dir/build.make CMakeFiles/cmTC_1a8f8.dir/build
+make[1]: Entering directory '/home/siddhant/Code/Projects/Freelance/cpp-gravitational-sim/PHAS0100Assignment2/Build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1a8f8.dir/src.cxx.o
+/usr/bin/c++   -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations    -DHAS_FLAG_-std=c17 -std=c++17 -o CMakeFiles/cmTC_1a8f8.dir/src.cxx.o -c /home/siddhant/Code/Projects/Freelance/cpp-gravitational-sim/PHAS0100Assignment2/Build/CMakeFiles/CMakeTmp/src.cxx
+<command-line>: warning: ISO C++11 requires whitespace after the macro name
+Linking CXX executable cmTC_1a8f8
+/opt/cmake-3.20.0-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1a8f8.dir/link.txt --verbose=1
+/usr/bin/c++   -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  CMakeFiles/cmTC_1a8f8.dir/src.cxx.o -o cmTC_1a8f8 
+make[1]: Leaving directory '/home/siddhant/Code/Projects/Freelance/cpp-gravitational-sim/PHAS0100Assignment2/Build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_FLAG_-std=c17 succeeded with the following output:
+Change Dir: /home/siddhant/Code/Projects/Freelance/cpp-gravitational-sim/PHAS0100Assignment2/Build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_2d3ca/fast && /usr/bin/make  -f CMakeFiles/cmTC_2d3ca.dir/build.make CMakeFiles/cmTC_2d3ca.dir/build
+make[1]: Entering directory '/home/siddhant/Code/Projects/Freelance/cpp-gravitational-sim/PHAS0100Assignment2/Build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2d3ca.dir/src.cxx.o
+/usr/bin/c++   -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations    -DHAS_FLAG_-std=c17 -std=c++17 -o CMakeFiles/cmTC_2d3ca.dir/src.cxx.o -c /home/siddhant/Code/Projects/Freelance/cpp-gravitational-sim/PHAS0100Assignment2/Build/CMakeFiles/CMakeTmp/src.cxx
+<command-line>: warning: ISO C++11 requires whitespace after the macro name
+Linking CXX executable cmTC_2d3ca
+/opt/cmake-3.20.0-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2d3ca.dir/link.txt --verbose=1
+/usr/bin/c++   -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  CMakeFiles/cmTC_2d3ca.dir/src.cxx.o -o cmTC_2d3ca 
+make[1]: Leaving directory '/home/siddhant/Code/Projects/Freelance/cpp-gravitational-sim/PHAS0100Assignment2/Build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
