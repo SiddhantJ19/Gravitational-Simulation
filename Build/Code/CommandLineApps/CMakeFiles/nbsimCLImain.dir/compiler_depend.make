@@ -476,8 +476,12 @@ Code/CommandLineApps/CMakeFiles/nbsimCLImain.dir/nbsimCLImain.cpp.o: ../Code/Com
   ../Code/3rdParty/Eigen-3.2.2.1/Eigen/src/Eigenvalues/RealQZ.h \
   ../Code/3rdParty/Eigen-3.2.2.1/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h \
   ../Code/Lib/nbsimMassiveParticle.h \
-  ../Code/Lib/nbsimParticle.h
+  ../Code/Lib/nbsimParticle.h \
+  ../Code/Lib/nbsimMyFunctions.h \
+  ../Code/Lib/nbsimWin32ExportHeader.h
 
+
+../Code/Lib/nbsimMyFunctions.h:
 
 ../Code/Lib/nbsimParticle.h:
 
@@ -798,6 +802,8 @@ Code/CommandLineApps/CMakeFiles/nbsimCLImain.dir/nbsimCLImain.cpp.o: ../Code/Com
 /usr/include/bits/types/sigset_t.h:
 
 /usr/include/c++/10.2.0/x86_64-pc-linux-gnu/bits/ctype_inline.h:
+
+../Code/Lib/nbsimWin32ExportHeader.h:
 
 /usr/include/gnu/stubs-64.h:
 

@@ -401,4 +401,6 @@ Code/CommandLineApps/CMakeFiles/nbsimCLImain.dir/nbsimCLImain.cpp.o: \
  /home/siddhant/Code/Projects/Freelance/cpp-gravitational-sim/PHAS0100Assignment2/Code/3rdParty/Eigen-3.2.2.1/Eigen/src/Eigenvalues/./RealQZ.h \
  /home/siddhant/Code/Projects/Freelance/cpp-gravitational-sim/PHAS0100Assignment2/Code/3rdParty/Eigen-3.2.2.1/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h \
  /home/siddhant/Code/Projects/Freelance/cpp-gravitational-sim/PHAS0100Assignment2/Code/Lib/nbsimMassiveParticle.h \
- /home/siddhant/Code/Projects/Freelance/cpp-gravitational-sim/PHAS0100Assignment2/Code/Lib/nbsimParticle.h
+ /home/siddhant/Code/Projects/Freelance/cpp-gravitational-sim/PHAS0100Assignment2/Code/Lib/nbsimParticle.h \
+ /home/siddhant/Code/Projects/Freelance/cpp-gravitational-sim/PHAS0100Assignment2/Code/Lib/nbsimMyFunctions.h \
+ /home/siddhant/Code/Projects/Freelance/cpp-gravitational-sim/PHAS0100Assignment2/Code/Lib/nbsimWin32ExportHeader.h

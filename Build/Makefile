@@ -549,19 +549,6 @@ phas0100assignment2/fast:
 .PHONY : phas0100assignment2/fast
 
 #=============================================================================
-# Target rules for targets named nbsimMyFirstApp
-
-# Build rule for target.
-nbsimMyFirstApp: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 nbsimMyFirstApp
-.PHONY : nbsimMyFirstApp
-
-# fast build rule for target.
-nbsimMyFirstApp/fast:
-	$(MAKE) $(MAKESILENT) -f Code/CommandLineApps/CMakeFiles/nbsimMyFirstApp.dir/build.make Code/CommandLineApps/CMakeFiles/nbsimMyFirstApp.dir/build
-.PHONY : nbsimMyFirstApp/fast
-
-#=============================================================================
 # Target rules for targets named nbsimCLImain
 
 # Build rule for target.
@@ -657,7 +644,6 @@ help:
 	@echo "... nbsimBasicTest"
 	@echo "... nbsimCLImain"
 	@echo "... nbsimCommandLineArgsTest"
-	@echo "... nbsimMyFirstApp"
 	@echo "... nbsimParticleTest"
 	@echo "... phas0100assignment2"
 .PHONY : help

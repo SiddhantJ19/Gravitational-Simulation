@@ -1,23 +1,10 @@
 #include "../3rdParty/CLI11.hpp"
 #include "nbsimSolarSystemData.ipp"
 #include "nbsimMassiveParticle.h"
+#include "nbsimMyFunctions.h"
 #include <iostream>
 #include <vector>
 #include <memory>
-
-void printPositions(std::vector<std::shared_ptr<nbsim::MassiveParticle>> &planets) 
-{
-    for(auto planet: planets)
-    {
-        auto pos = planet->getPosition() ;
-        std::cout << planet->getName() <<
-        "     Position: " <<
-        "x: " << pos.x() << ' ' <<
-        "y: " << pos.y() << ' ' <<
-        "z: " << pos.z() << '\n';
-    }
-}
-
 
 int main(int argc, char **argv) 
 {
@@ -37,6 +24,7 @@ int main(int argc, char **argv)
         );
         planets.push_back(planetptr);
     }
+
     std::cout << "\n******** PRE SIMULATION ***********\n";
     printPositions(planets);
 
@@ -52,8 +40,13 @@ int main(int argc, char **argv)
     }
 
     // simulating solar system
-    for (int step=1; step<num_steps; step++) 
+    std::cout << "\n******** RUNNING SIMULATION ***********\n";
+    for (int step=1; step<=num_steps; step++) 
     {
+        std::shared_ptr<Eigen::Vector3d> com = calculateCOM(planets);
+        std::shared_ptr<Eigen::Vector3d> p_total = calculateLinearMomentum(planets, 6.6743); // G = 6.6743
+        nbsim::print_com_linearmomentum(step, com, p_total);
+
         for (auto planet: planets)
         {
             planet->calculateAcceleration();
@@ -68,6 +61,5 @@ int main(int argc, char **argv)
     std::cout << "\n******** POST SIMULATION ***********\n";
     printPositions(planets);
 
-    
     return 0;
 }

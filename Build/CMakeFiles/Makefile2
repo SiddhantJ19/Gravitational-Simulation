@@ -127,7 +127,6 @@ Code/clean: Code/CommandLineApps/clean
 # Directory level rules for directory Code/CommandLineApps
 
 # Recursive "all" directory target.
-Code/CommandLineApps/all: Code/CommandLineApps/CMakeFiles/nbsimMyFirstApp.dir/all
 Code/CommandLineApps/all: Code/CommandLineApps/CMakeFiles/nbsimCLImain.dir/all
 .PHONY : Code/CommandLineApps/all
 
@@ -136,7 +135,6 @@ Code/CommandLineApps/preinstall:
 .PHONY : Code/CommandLineApps/preinstall
 
 # Recursive "clean" directory target.
-Code/CommandLineApps/clean: Code/CommandLineApps/CMakeFiles/nbsimMyFirstApp.dir/clean
 Code/CommandLineApps/clean: Code/CommandLineApps/CMakeFiles/nbsimCLImain.dir/clean
 .PHONY : Code/CommandLineApps/clean
 
@@ -909,7 +907,7 @@ CMakeFiles/ContinuousUpdate.dir/clean:
 Code/Lib/CMakeFiles/phas0100assignment2.dir/all:
 	$(MAKE) $(MAKESILENT) -f Code/Lib/CMakeFiles/phas0100assignment2.dir/build.make Code/Lib/CMakeFiles/phas0100assignment2.dir/depend
 	$(MAKE) $(MAKESILENT) -f Code/Lib/CMakeFiles/phas0100assignment2.dir/build.make Code/Lib/CMakeFiles/phas0100assignment2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/siddhant/Code/Projects/Freelance/cpp-gravitational-sim/PHAS0100Assignment2/Build/CMakeFiles --progress-num=14,15,16,17,18,19 "Built target phas0100assignment2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/siddhant/Code/Projects/Freelance/cpp-gravitational-sim/PHAS0100Assignment2/Build/CMakeFiles --progress-num=12,13,14,15,16,17 "Built target phas0100assignment2"
 .PHONY : Code/Lib/CMakeFiles/phas0100assignment2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -927,32 +925,6 @@ phas0100assignment2: Code/Lib/CMakeFiles/phas0100assignment2.dir/rule
 Code/Lib/CMakeFiles/phas0100assignment2.dir/clean:
 	$(MAKE) $(MAKESILENT) -f Code/Lib/CMakeFiles/phas0100assignment2.dir/build.make Code/Lib/CMakeFiles/phas0100assignment2.dir/clean
 .PHONY : Code/Lib/CMakeFiles/phas0100assignment2.dir/clean
-
-#=============================================================================
-# Target rules for target Code/CommandLineApps/CMakeFiles/nbsimMyFirstApp.dir
-
-# All Build rule for target.
-Code/CommandLineApps/CMakeFiles/nbsimMyFirstApp.dir/all: Code/Lib/CMakeFiles/phas0100assignment2.dir/all
-	$(MAKE) $(MAKESILENT) -f Code/CommandLineApps/CMakeFiles/nbsimMyFirstApp.dir/build.make Code/CommandLineApps/CMakeFiles/nbsimMyFirstApp.dir/depend
-	$(MAKE) $(MAKESILENT) -f Code/CommandLineApps/CMakeFiles/nbsimMyFirstApp.dir/build.make Code/CommandLineApps/CMakeFiles/nbsimMyFirstApp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/siddhant/Code/Projects/Freelance/cpp-gravitational-sim/PHAS0100Assignment2/Build/CMakeFiles --progress-num=9,10 "Built target nbsimMyFirstApp"
-.PHONY : Code/CommandLineApps/CMakeFiles/nbsimMyFirstApp.dir/all
-
-# Build rule for subdir invocation for target.
-Code/CommandLineApps/CMakeFiles/nbsimMyFirstApp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/siddhant/Code/Projects/Freelance/cpp-gravitational-sim/PHAS0100Assignment2/Build/CMakeFiles 8
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Code/CommandLineApps/CMakeFiles/nbsimMyFirstApp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/siddhant/Code/Projects/Freelance/cpp-gravitational-sim/PHAS0100Assignment2/Build/CMakeFiles 0
-.PHONY : Code/CommandLineApps/CMakeFiles/nbsimMyFirstApp.dir/rule
-
-# Convenience name for target.
-nbsimMyFirstApp: Code/CommandLineApps/CMakeFiles/nbsimMyFirstApp.dir/rule
-.PHONY : nbsimMyFirstApp
-
-# clean rule for target.
-Code/CommandLineApps/CMakeFiles/nbsimMyFirstApp.dir/clean:
-	$(MAKE) $(MAKESILENT) -f Code/CommandLineApps/CMakeFiles/nbsimMyFirstApp.dir/build.make Code/CommandLineApps/CMakeFiles/nbsimMyFirstApp.dir/clean
-.PHONY : Code/CommandLineApps/CMakeFiles/nbsimMyFirstApp.dir/clean
 
 #=============================================================================
 # Target rules for target Code/CommandLineApps/CMakeFiles/nbsimCLImain.dir
@@ -1039,7 +1011,7 @@ Testing/CMakeFiles/nbsimCommandLineArgsTest.dir/clean:
 Testing/CMakeFiles/nbsimParticleTest.dir/all: Code/Lib/CMakeFiles/phas0100assignment2.dir/all
 	$(MAKE) $(MAKESILENT) -f Testing/CMakeFiles/nbsimParticleTest.dir/build.make Testing/CMakeFiles/nbsimParticleTest.dir/depend
 	$(MAKE) $(MAKESILENT) -f Testing/CMakeFiles/nbsimParticleTest.dir/build.make Testing/CMakeFiles/nbsimParticleTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/siddhant/Code/Projects/Freelance/cpp-gravitational-sim/PHAS0100Assignment2/Build/CMakeFiles --progress-num=11,12,13 "Built target nbsimParticleTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/siddhant/Code/Projects/Freelance/cpp-gravitational-sim/PHAS0100Assignment2/Build/CMakeFiles --progress-num=9,10,11 "Built target nbsimParticleTest"
 .PHONY : Testing/CMakeFiles/nbsimParticleTest.dir/all
 
 # Build rule for subdir invocation for target.

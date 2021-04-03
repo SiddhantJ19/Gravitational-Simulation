@@ -110,16 +110,6 @@ list_install_components:
 list_install_components/fast: list_install_components
 .PHONY : list_install_components/fast
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/opt/cmake-3.20.0-linux-x86_64/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target test
 test:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
@@ -139,6 +129,16 @@ edit_cache:
 # Special rule for the target edit_cache
 edit_cache/fast: edit_cache
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/opt/cmake-3.20.0-linux-x86_64/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -170,20 +170,6 @@ preinstall/fast:
 depend:
 	cd /home/siddhant/Code/Projects/Freelance/cpp-gravitational-sim/PHAS0100Assignment2/Build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
-
-# Convenience name for target.
-Code/CommandLineApps/CMakeFiles/nbsimMyFirstApp.dir/rule:
-	cd /home/siddhant/Code/Projects/Freelance/cpp-gravitational-sim/PHAS0100Assignment2/Build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Code/CommandLineApps/CMakeFiles/nbsimMyFirstApp.dir/rule
-.PHONY : Code/CommandLineApps/CMakeFiles/nbsimMyFirstApp.dir/rule
-
-# Convenience name for target.
-nbsimMyFirstApp: Code/CommandLineApps/CMakeFiles/nbsimMyFirstApp.dir/rule
-.PHONY : nbsimMyFirstApp
-
-# fast build rule for target.
-nbsimMyFirstApp/fast:
-	cd /home/siddhant/Code/Projects/Freelance/cpp-gravitational-sim/PHAS0100Assignment2/Build && $(MAKE) $(MAKESILENT) -f Code/CommandLineApps/CMakeFiles/nbsimMyFirstApp.dir/build.make Code/CommandLineApps/CMakeFiles/nbsimMyFirstApp.dir/build
-.PHONY : nbsimMyFirstApp/fast
 
 # Convenience name for target.
 Code/CommandLineApps/CMakeFiles/nbsimCLImain.dir/rule:
@@ -223,30 +209,6 @@ nbsimCLImain.cpp.s:
 	cd /home/siddhant/Code/Projects/Freelance/cpp-gravitational-sim/PHAS0100Assignment2/Build && $(MAKE) $(MAKESILENT) -f Code/CommandLineApps/CMakeFiles/nbsimCLImain.dir/build.make Code/CommandLineApps/CMakeFiles/nbsimCLImain.dir/nbsimCLImain.cpp.s
 .PHONY : nbsimCLImain.cpp.s
 
-nbsimMyFirstApp.o: nbsimMyFirstApp.cpp.o
-.PHONY : nbsimMyFirstApp.o
-
-# target to build an object file
-nbsimMyFirstApp.cpp.o:
-	cd /home/siddhant/Code/Projects/Freelance/cpp-gravitational-sim/PHAS0100Assignment2/Build && $(MAKE) $(MAKESILENT) -f Code/CommandLineApps/CMakeFiles/nbsimMyFirstApp.dir/build.make Code/CommandLineApps/CMakeFiles/nbsimMyFirstApp.dir/nbsimMyFirstApp.cpp.o
-.PHONY : nbsimMyFirstApp.cpp.o
-
-nbsimMyFirstApp.i: nbsimMyFirstApp.cpp.i
-.PHONY : nbsimMyFirstApp.i
-
-# target to preprocess a source file
-nbsimMyFirstApp.cpp.i:
-	cd /home/siddhant/Code/Projects/Freelance/cpp-gravitational-sim/PHAS0100Assignment2/Build && $(MAKE) $(MAKESILENT) -f Code/CommandLineApps/CMakeFiles/nbsimMyFirstApp.dir/build.make Code/CommandLineApps/CMakeFiles/nbsimMyFirstApp.dir/nbsimMyFirstApp.cpp.i
-.PHONY : nbsimMyFirstApp.cpp.i
-
-nbsimMyFirstApp.s: nbsimMyFirstApp.cpp.s
-.PHONY : nbsimMyFirstApp.s
-
-# target to generate assembly for a file
-nbsimMyFirstApp.cpp.s:
-	cd /home/siddhant/Code/Projects/Freelance/cpp-gravitational-sim/PHAS0100Assignment2/Build && $(MAKE) $(MAKESILENT) -f Code/CommandLineApps/CMakeFiles/nbsimMyFirstApp.dir/build.make Code/CommandLineApps/CMakeFiles/nbsimMyFirstApp.dir/nbsimMyFirstApp.cpp.s
-.PHONY : nbsimMyFirstApp.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -261,13 +223,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... nbsimCLImain"
-	@echo "... nbsimMyFirstApp"
 	@echo "... nbsimCLImain.o"
 	@echo "... nbsimCLImain.i"
 	@echo "... nbsimCLImain.s"
-	@echo "... nbsimMyFirstApp.o"
-	@echo "... nbsimMyFirstApp.i"
-	@echo "... nbsimMyFirstApp.s"
 .PHONY : help
 
 

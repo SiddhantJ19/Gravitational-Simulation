@@ -27,7 +27,3 @@ TEST_CASE( "My second test", "[some group identifier]" ) {
   std::vector<int> a;
   REQUIRE( a.size() == 0 );
 }
-
-TEST_CASE( "Simple add", "[MyFirstAddFunction]") {
-  REQUIRE( nbsim::MyFirstAddFunction(1, 2) == 3);
-}
