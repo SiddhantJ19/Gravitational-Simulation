@@ -1,15 +1,16 @@
 Install gcc/g++, Cmake
 From Build folder run
 
-    cmake .. -DCMAKE_BUILD_TYPE=Debug -G "Unix Makefiles"
+    cmake .. -DCMAKE_BUILD_TYPE=Debug -G "Unix Makefiles" -DCMAKE_CXX_FLAGS_DEBUG="-DDEBUG_ON"
     
 To Compile the project every time, run from Build folder
     make all
 
-export test=./bin/
-export run=./bin/
+To run CLI APP
+    export OMP_NUM_THREADS=5
+    ./bin/nbsimCLImain --step 0.000274 --numsteps 3650
+    ./bin/nbsimCLImain --help
 
-./bin/nbsimCLImain --step 0.000274 --numsteps 3650
-./bin/nbsimParticleTest
+To run tests
+    ./bin/nbsimParticleTest
 
-cmake .. -DCMAKE_BUILD_TYPE=Debug -G "Unix Makefiles" -DCMAKE_CXX_FLAGS_DEBUG="-DDEBUG_ON"

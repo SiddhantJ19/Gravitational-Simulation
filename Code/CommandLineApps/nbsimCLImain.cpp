@@ -6,6 +6,7 @@
 #include <vector>
 #include <memory>
 #include <chrono>
+#include <omp.h>
 
 using Clock=std::chrono::high_resolution_clock;
 
@@ -49,12 +50,14 @@ int main(int argc, char **argv)
     for (int step=1; step<=num_steps; step++) 
     {
         std::shared_ptr<Eigen::Vector3d> com = calculateCOM(planets);
-        std::shared_ptr<Eigen::Vector3d> p_total = calculateLinearMomentum(planets, 6.6743); // G = 6.6743
+        std::shared_ptr<Eigen::Vector3d> p_total = calculateLinearMomentum(planets, 6.6743 * pow(10, -11)); // G = 6.6743
         
-        #ifdef DEBUG_ON // add -DCMAKE_CXX_FLAGS_DEBUG="-DDEBUG" in cmake command to log following
+        #ifdef DEBUG_ON // add -DCMAKE_CXX_FLAGS_DEBUG="-DDEBUG_ON" in cmake command to log following
         nbsim::print_com_linearmomentum(step, com, p_total);
         #endif
 
+        // comment following line to avoid parallelism
+        #pragma omp parallel for
         for (auto planet: planets)
         {
             planet->calculateAcceleration();
@@ -62,8 +65,8 @@ int main(int argc, char **argv)
         for (auto planet: planets)
         {
             planet->integrateTimestep(step_size);
-
         }
+        
     }
     auto c_end = Clock::now();
 
